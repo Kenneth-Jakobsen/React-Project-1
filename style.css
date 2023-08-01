@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+html{
+        background-color: #23252C;
+        font-family: 'Inter', sans-serif;
+}
+
+.card{
+    width: 300px;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+
+h1{
+    font-size: 20px;
+}
+
+.main--buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+P{
+    font-size: 12px;
+    font-weight: 300;
+}
+
+
+button{
+    border-radius: 8px;
+    padding: 8px 20px;
+    background-color: whitesmoke;
+}
+
+.about--div{
+    text-align: left;
+}
+
+body{
+    max-width: 350px;
+    max-height: 700px;
+    padding: 10px;
+    color: white;
+    margin: 0 auto;
+    background-color: #1E1F26;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 50px;
+}
